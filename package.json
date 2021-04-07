@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "tailwindcss": "^2.1.1"
+  },
+  "name": "codes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  }
+}
