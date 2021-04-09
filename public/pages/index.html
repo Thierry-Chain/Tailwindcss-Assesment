@@ -13,8 +13,8 @@
     <div class="mx-auto sm:grid grid-cols-4 gap-0">
 
         <!--side bar-->
-        <div class="relative border border-gray-800 sm:col-span-1 bg-head h-screen">
-            <div class="text-center font-serif font-semibold text-white py-2 ">Work
+        <div class="relative hidden sm:inline sm:col-span-1 bg-head h-screen">
+            <div class="sticky text-center font-serif font-semibold text-white py-2 ">Work
                 <span class="text-dim">cation</span>
             </div>
 
@@ -103,9 +103,9 @@
                 </div>
 
             </div>
-            <div class="flex mx-auto absolute w-full bottom-0 bg-head my-3 rounded-md shadow-lg">
+            <div class="flex mx-auto mt-auto w-full bg-head py-3">
                 <button
-                    class="py-2 rounded-md tracking-wide ease-out duration-100 w-11/12 hover:bg-blue-600 mx-auto bg-blue-800 transition-opacity text-white font-semibold">Update</button>
+                    class="py-2 self-end rounded-md mt-auto shadow-lg tracking-wide ease-out duration-100 w-11/12 hover:bg-blue-600 mx-auto bg-blue-800 transition-opacity text-white font-semibold">Update</button>
             </div>
 
 
@@ -114,7 +114,162 @@
 
 
         <!--main body contents-->
-        <div class="border border-red-300 sm:col-span-3">
+        <div class="sm:col-span-3 h-auto">
+            <!--navigation bar-->
+            <nav class="flex justify-between py-3">
+                <div class="w-auto">
+                    <input type="text" class="ml-3 bg-gray-100 p-2 shadow-md rounded-md placeholder-gray-400"
+                        placeholder="search">
+                </div>
+                <div class="flex flex-wrap">
+                    <a class="no-underline font-semibold text-head mx-2" href="#">Trips </a>
+                    <a class="no-underline font-semibold text-head mx-2" href="#">Message</a><a
+                        class="no-underline font-semibold text-head mx-2" href="#">Support</a><a
+                        class="no-underline font-semibold text-head mx-2" href="#">Property</a>
+                    <a class="no-underline font-semibold text-head mx-2 w-11 h-11 flex-shrink-0" href="#"><img
+                            src="../../src/img/img2.jpg" class="object-cover rounded-full"></img></a>
+
+                </div>
+            </nav>
+
+            <!--navigation bar-->
+            <div class="bg-skin">
+                <div class="ml-3">
+                    <p class="text-head text-xl p-1 sticky capitalize font-medium font-serif">los angeles</p>
+
+                    <p class="font-normal text-gray-400 block">Live like a star in these luxiourios southern calfonia
+                        estates
+                        <a href="#" class="text-indigo-400 cursor-not-allowed underline float-right mr-3">View all</a>
+                    </p>
+
+                    <div class="grid mt-2 h-auto md:grid-cols-2 lg:grid-cols-3 gap-3 p-5 clear-both">
+                        <!--card one-->
+                        <div class="flex-col">
+
+                            <div class="rounded shadow-2xl overflow-x-hidden">
+                                <img src="../../src/img/img1.jpg" class="object-cover" alt="">
+                            </div>
+                            <div class="relative -top-12 bg-white rounded-xl p-2 w-11/12 ml-3">
+                                <span class="bg-blue-300 rounded-xl p-1">Plus</span>
+                                <span class="text-sm capitalize ml-2">3 Beds</span>
+                                <span class="text-sm capitalize ml-2">2 baths</span>
+                                <p class="text-center font-bold capitalize my-3">Modern home in city cente</p>
+                                <p class="text-base">$ 1287/wk</p>
+                                <span class="text-green-600 text-xl">&star;&star;&star; <span
+                                        class="text-gray-300">34Views</span></span>
+                            </div>
+                        </div>
+                        <!--card one-->
+                        <!--card two-->
+                        <div class="flex-col">
+
+                            <div class="rounded shadow-2xl overflow-x-hidden">
+                                <img src="../../src/img/img2.jpg" class="object-cover" alt="">
+                            </div>
+                            <div class="relative -top-12 bg-white rounded-xl p-2 w-11/12 ml-3">
+                                <span class="bg-blue-300 rounded-xl p-1">Plus</span>
+                                <span class="text-sm capitalize ml-2">3 Beds</span>
+                                <span class="text-sm capitalize ml-2">2 baths</span>
+                                <p class="text-center font-bold capitalize my-3">Modern home in city cente</p>
+                                <p class="text-base">$ 1287/wk</p>
+                                <span class="text-green-600 text-xl">&star;&star;&star; <span
+                                        class="text-gray-300">34Views</span></span>
+                            </div>
+                        </div>
+                        <!--card two-->
+
+                        <!--card three-->
+                        <div class="flex-col">
+
+                            <div class="rounded shadow-2xl overflow-x-hidden">
+                                <img src="../../src/img/img3.jpg" class="object-cover" alt="">
+                            </div>
+                            <div class="relative -top-12 bg-white rounded-xl p-2 w-11/12 ml-3">
+                                <span class="bg-blue-300 rounded-xl p-1">Plus</span>
+                                <span class="text-sm capitalize ml-2">3 Beds</span>
+                                <span class="text-sm capitalize ml-2">2 baths</span>
+                                <p class="text-center font-bold capitalize my-3">Modern home in city cente</p>
+                                <p class="text-base">$ 1287/wk</p>
+                                <span class="text-green-600 text-xl">&star;&star;&star; <span
+                                        class="text-gray-300">34Views</span></span>
+                            </div>
+                        </div>
+                        <!--card three-->
+
+                    </div>
+
+
+                </div>
+                <!--phoneix-->
+                <div class="ml-3">
+                    <p class="text-head text-xl p-1 capitalize font-medium font-serif">Phoneix</p>
+
+                    <p class="font-normal text-gray-400 block">Live like a star in these luxiourios states
+                        estates
+                        <a href="#" class="text-indigo-400 cursor-not-allowed underline float-right mr-3">View all</a>
+                    </p>
+
+                    <div class="grid mt-2 h-auto md:grid-cols-2 lg:grid-cols-3 gap-3 p-5 clear-both">
+                        <!--card one-->
+                        <div class="flex-col">
+
+                            <div class="rounded shadow-2xl overflow-x-hidden">
+                                <img src="../../src/img/img4.jpg" class="object-cover" alt="">
+                            </div>
+                            <div class="relative -top-12 bg-white rounded-xl p-2 w-11/12 ml-3">
+                                <span class="bg-blue-300 rounded-xl p-1">Plus</span>
+                                <span class="text-sm capitalize ml-2">3 Beds</span>
+                                <span class="text-sm capitalize ml-2">2 baths</span>
+                                <p class="text-center font-bold capitalize my-3">Modern home in city cente</p>
+                                <p class="text-base">$ 1287/wk</p>
+                                <span class="text-green-600 text-xl">&star;&star;&star; <span
+                                        class="text-gray-300">34Views</span></span>
+                            </div>
+                        </div>
+                        <!--card one-->
+                        <!--card two-->
+                        <div class="flex-col">
+
+                            <div class="rounded shadow-2xl overflow-x-hidden">
+                                <img src="../../src/img/img5.jpg" class="object-cover" alt="">
+                            </div>
+                            <div class="relative -top-12 bg-white rounded-xl p-2 w-11/12 ml-3">
+                                <span class="bg-blue-300 rounded-xl p-1">Plus</span>
+                                <span class="text-sm capitalize ml-2">3 Beds</span>
+                                <span class="text-sm capitalize ml-2">2 baths</span>
+                                <p class="text-center font-bold capitalize my-3">Modern home in city cente</p>
+                                <p class="text-base">$ 1287/wk</p>
+                                <span class="text-green-600 text-xl">&star;&star;&star; <span
+                                        class="text-gray-300">34Views</span></span>
+                            </div>
+                        </div>
+                        <!--card two-->
+
+                        <!--card three-->
+                        <div class="flex-col">
+
+                            <div class="rounded shadow-2xl overflow-x-hidden">
+                                <img src="../../src/img/img6.jpg" class="object-cover" alt="">
+                            </div>
+                            <div class="relative -top-12 bg-white rounded-xl p-2 w-11/12 ml-3">
+                                <span class="bg-blue-300 rounded-xl p-1">Plus</span>
+                                <span class="text-sm capitalize ml-2">3 Beds</span>
+                                <span class="text-sm capitalize ml-2">2 baths</span>
+                                <p class="text-center font-bold capitalize my-3">Modern home in city cente</p>
+                                <p class="text-base">$ 1287/wk</p>
+                                <span class="text-green-600 text-xl">&star;&star;&star; <span
+                                        class="text-gray-300">34Views</span></span>
+                            </div>
+                        </div>
+                        <!--card three-->
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
 
         </div>
         <!--end of main content-->

@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         head: '#1a202c',
         dim: '#b7c9fa',
-        dip: '#2e3748'
+        dip: '#2e3748',
+        skin: '#edf2f6'
       }
     }
   },
