@@ -13,7 +13,50 @@
     <nav>
         <p class="text-4xl font-serif font-semibold text-center text-green-700 p-3">My tailwind css</p>
     </nav>
+
     <hr>
+    <div class="my--24 box-border container mx-auto sticky top-0 w-full">
+        <nav class="flex items-center justify-between flex-wrap bg-green-400 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
+                </svg>
+                <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+            </div>
+            <div class="block lg:hidden">
+                <button
+                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                <div class="text-sm lg:flex-grow">
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        Docs
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        Examples
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                        Blog
+                    </a>
+                </div>
+                <div>
+                    <a href="#"
+                        class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 shadow-sm">Download</a>
+                </div>
+            </div>
+        </nav>
+
+    </div>
     <main class="mx-16 border bg-gray-200 border-b-4 border-pink-400 px-5 mt-2">
         <p class="text-center text-teal-600 text-xs font-thin">header one</p>
         <p class="text-center text-teal-600 text-base font-light">header one</p>
@@ -33,7 +76,7 @@
 
         <!--flex boxes-->
         <div class="flex flex-col bg-gray-200 h-72 items--end">
-            <span class="text-gray-700 text-center bg-gray-400 py-2 my-2">1</span>
+            <span class="text-gray-700 text-center bg-gray-400 py-2 my-2 sticky top-0">1</span>
             <span class="text-gray-700 text-center bg-gray-400 py-2 my-2">2</span>
             <span class="text-gray-700 text-center bg-gray-400 py-2 my-2">3</span>
         </div>
@@ -118,48 +161,38 @@
                 </div>
             </div>
         </div>
+        <button
+            class="transition rounded p-2 duration-500 ease-in-out bg-blue-500 hover:bg-red-500 transform hover:-translate-y-1 hover:scale-110 ...">
+            Hover me 1
+        </button>
+        <button
+            class="transition rounded p-2 duration-500 ease-out bg-blue-500 hover:bg-red-500 transform hover:-translate-y-1 hover:scale-110 ...">
+            Hover me 2
+        </button>
+        <button
+            class="transition rounded p-2 duration-500 ease-in bg-blue-500 hover:bg-red-500 transform hover:skew-y-2 hover:-translate-y-1 hover:scale-150 ...">
+            Hover me 3
+        </button>
+        <!--        <button class="btn bg-blue-500 transition ease-in duration-700">Hover me</button>
+        <button class="btn bg-blue-500 transition ease-out duration-700">Hover me</button>
+        <button class="btn bg-blue-500 transition ease-in-out duration-700">Hover me</button>-->
     </main>
 
-    <div class="my-24">
-        <nav class="flex items-center justify-between flex-wrap bg-green-400 p-6">
-            <div class="flex items-center flex-shrink-0 text-white mr-6">
-                <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
-                </svg>
-                <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
-            </div>
-            <div class="block lg:hidden">
-                <button
-                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Menu</title>
-                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                    </svg>
-                </button>
-            </div>
-            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                <div class="text-sm lg:flex-grow">
-                    <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                        Docs
-                    </a>
-                    <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                        Examples
-                    </a>
-                    <a href="#responsive-header"
-                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
-                        Blog
-                    </a>
-                </div>
-                <div>
-                    <a href="#"
-                        class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
-                </div>
-            </div>
-        </nav>
+
+    <div class="container bg-transparent h-5 overflow-scroll">
+        <div>
+            <div class="sticky top-0 ...">Sticky Heading 1</div>
+            <p class="py-4">Quisque cursus...</p>
+        </div>
+        <div>
+            <div class="sticky top-0 ...">Sticky Heading 2</div>
+            <p class="py-4">Integer lacinia...</p>
+        </div>
+        <div>
+            <div class="sticky top-0 ...">Sticky Heading 3</div>
+            <p class="py-4">Nullam mauris...</p>
+        </div>
+        <!-- etc. -->
     </div>
 </body>
 
