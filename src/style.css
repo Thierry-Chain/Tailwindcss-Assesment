@@ -9,3 +9,6 @@
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';
+.underlined {
+  @apply h-1 mb-1 bg-head shadow-md w-full px-0;
+}
