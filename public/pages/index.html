@@ -10,7 +10,157 @@
 </head>
 
 <body>
+    <nav>
+        <p class="text-4xl font-serif font-semibold text-center text-green-700 p-3">My tailwind css</p>
+    </nav>
+    <hr>
+    <main class="mx-16 border bg-gray-200 border-b-4 border-pink-400 px-5 mt-2">
+        <p class="text-center text-teal-600 text-xs font-thin">header one</p>
+        <p class="text-center text-teal-600 text-base font-light">header one</p>
+        <p class="text-center text-teal-600 text-lg font-extrabold">header one</p>
+        <p class="text-center text-teal-600 text-xl italic font-black">header one</p>
+        <div class="bg-gray-200">
+            <span class="p-auto bg-gray text-primary .hidden">padding auto</span>
+        </div>
+        <div class="bg-gray-200 p-4">
+            <span
+                class="block sm:cursor-not-allowed md:inline md:flex-grow text-gray-700 text-center bg-gray-400 px-4 py-2">11</span>
+            <span
+                class="block sm:cursor-not-allowed md:inline md:flex-grow text-gray-700 text-center bg-gray-400 px-4 py-2 mt-2">22</span>
+            <span
+                class="block sm:cursor-not-allowed md:inline md:flex-grow text-gray-700 text-center bg-gray-400 px-4 py-2 mt-2">33</span>
+        </div>
 
+        <!--flex boxes-->
+        <div class="flex flex-col bg-gray-200 h-72 items--end">
+            <span class="text-gray-700 text-center bg-gray-400 py-2 my-2">1</span>
+            <span class="text-gray-700 text-center bg-gray-400 py-2 my-2">2</span>
+            <span class="text-gray-700 text-center bg-gray-400 py-2 my-2">3</span>
+        </div>
+
+
+        <div class="flex items-center bg-gray-500 h-24">
+            <div class="flex-auto order-last text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">2</div>
+            <div class="flex-none self-start text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">1</div>
+            <div class="flex-auto order-first text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">3</div>
+        </div>
+
+        <!--flex boxes-->
+
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+                <div class="md:flex-shrink-0">
+                    <img class="h-48 w-full object-cover md:w-48" src="/img/store.jpg"
+                        alt="Man looking at item at a store">
+                </div>
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Case study</div>
+                    <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Finding
+                        customers for your new business</a>
+                    <p class="mt-2 text-gray-500">Getting a new business off the ground is a lot of hard work. Here are
+                        five
+                        ideas you can use to find your first customers.</p>
+                    <input type="text" placeholder="Type"
+                        class="placeholder-gray-900 placeholder-opacity-50 float-right">
+
+                </div>
+            </div>
+        </div>
+        <!--list-->
+        <ul class="list-inside bg-rose-200 ...">
+            <li class="border-t border-b border-gray-400 m-4 p-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit
+            </li>
+
+        </ul>
+
+        <ul class="list-outside bg-rose-200 ...">
+            <li class="border-t border-b border-gray-400 m-4 p-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit
+            </li>
+
+        </ul>
+
+
+        <div class="w-3/4 ...">
+            <div class="whitespace-normal ...">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quidem
+                itaque
+                beatae, rem tenetur quia iure,
+                eum natus enim maxime
+                laudantium quibusdam illo nihil,
+
+                reprehenderit saepe quam aliquid odio accusamus.</div>
+        </div>
+        <div class="grid md:grid-cols-3">
+            <div class="d tracking-wider whitespace-pre overflow-scroll break-all">m mddhdn ddhhd dhh Lorem ipsum
+                dolor
+                sit amet
+                consectetur adipisicing elit. Ad
+                quibusdam blanditiis iure quas, porro, vitae mollitia expedita inventore eligendi totam ducimus, dolorum
+                quae magnam? Fugit tempora vero in quo fuga!</div>
+            <div class="d">m</div>
+            <div class="d">m</div>
+        </div>
+        <div class=" my-8">
+            <p class="text-center uppercase underline">buttons</p>
+            <button class="btn rounded bg-blue-400 shadow-inner">Click here</button>
+        </div>
+        <div class="bg-green-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md" role="alert">
+            <div class="flex">
+                <div class="py-1"><svg class="fill-current h-6 w-6 text-teal-500 mr-4"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path
+                            d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z" />
+                    </svg></div>
+                <div>
+                    <p class="font-bold">Our privacy policy has changed</p>
+                    <p class="text-sm">Make sure you know how these changes affect you.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="my-24">
+        <nav class="flex items-center justify-between flex-wrap bg-green-400 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
+                </svg>
+                <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+            </div>
+            <div class="block lg:hidden">
+                <button
+                    class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                <div class="text-sm lg:flex-grow">
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        Docs
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        Examples
+                    </a>
+                    <a href="#responsive-header"
+                        class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                        Blog
+                    </a>
+                </div>
+                <div>
+                    <a href="#"
+                        class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+                </div>
+            </div>
+        </nav>
+    </div>
 </body>
 
 </html>
